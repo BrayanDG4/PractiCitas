@@ -811,6 +811,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  height: 105vh;
+}
+
 .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
@@ -1431,10 +1435,16 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footer>.container-fluid{
+  background-image: linear-gradient(rgba(5,7,12,0.6), rgba(5,7,12,0.6)), url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #footer {
   background: #fff;
-  padding: 0 0 30px 0;
-  color: #444444;
+  color: #fff;
   font-size: 14px;
   background: #f1f6fe;
 }
@@ -1485,7 +1495,6 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1505,12 +1514,12 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #fff;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1537,7 +1546,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: rgb(192, 190, 190);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1573,7 +1582,7 @@ section {
   float: right;
   text-align: center;
   font-size: 13px;
-  color: #444444;
+  color: rgb(192, 190, 190);
 }
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
