@@ -505,6 +505,8 @@ h1, h2, h3, h4, h5, h6 {
       background-repeat: no-repeat;
       background-position: 105% 80%;
     }
+
+    
 }
 
 @media (max-height: 500px) {
@@ -623,7 +625,7 @@ section {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 8px;
   z-index: 1;
 }
@@ -635,7 +637,7 @@ section {
   left: 0;
   bottom: 0;
   top: 100%;
-  transition: all 0.3s;
+  transition: all 0.2s;
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
@@ -650,7 +652,7 @@ section {
   font-size: 48px;
   line-height: 1;
   color: #106eea;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .featured-services .title {
   font-weight: 700;
