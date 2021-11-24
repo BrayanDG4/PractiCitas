@@ -165,14 +165,29 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Desktop Navigation 
 */
+
+#login{
+  margin-left: 15px;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #404aa3;
+  border-radius: 40px;
+  color: #fff;
+}
+
+#login:hover{
+  background-color: #18d26e;
+}
+
 .navbar {
   padding: 0;
-  
-
 }
 
 .navbar a:hover{
   padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #18d26e;
   border-radius: 30px;
 }
@@ -195,7 +210,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 15px;
   font-weight: 600;
   color: #222222;
@@ -353,32 +370,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #6cc96c;
-}
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -817,9 +809,6 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services{
-  height: 105vh;
-}
 
 .services .icon-box {
   text-align: center;
@@ -1596,4 +1585,27 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+/* AGENDAR CITA */
+
+.form-control{
+  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+}
+
+#form{
+  font-family: Poppins;
+}
+
+#form .btn-get-started{
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: #fff;
+  background: #106eea;
 }
