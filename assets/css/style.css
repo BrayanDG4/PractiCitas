@@ -168,6 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #login{
   margin-left: 15px;
+  margin-right: 0% !important; 
   padding: 6px;
   padding-left: 10px;
   padding-right: 10px;
@@ -360,6 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile > ul > li {
   padding: 0;
+  width: 90%;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
   visibility: hidden;
@@ -397,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .container {
   margin-top: 5%;
   position: relative;
-  height: 60vh;
+  height: 62vh;
 } 
 
 /* #hero img{
@@ -436,6 +438,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #0014BE;
 }
+
+#admin-1 a:hover{
+  background-color: #18d26e; 
+  color: #fff;
+}
+
+.btn-admin{
+  border-radius: 35px; 
+  background-color: #e7f1fd; 
+  color: #106eea; 
+  padding: 1% 2% 1% 2%; 
+  font-weight: bold;
+  margin-right: 1%;
+}
+
 #hero .btn-get-started:hover {
   background: #247cf0;
 }
@@ -471,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero {
-    height: 80vh;
+    height: 84vh;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 100% 50%;
@@ -495,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
     #hero{
       background-size: 100%;
       background-repeat: no-repeat;
-      background-position: 105% 80%;
+      background-position: 105% 100%;
     }
 
     

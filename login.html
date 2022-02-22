@@ -11,25 +11,40 @@
 <body>
 
     <div class="login-box">
-        <img class="avatar" src="assets/img/login/playstation.png" alt="">
+        <img class="avatar" src="assets/img/login/Avatar.png" alt="Logo PractiCitas">
 
         <h1>Iniciar sesión</h1>
 
         <form>
 
             <label for="correo">Correo</label>
-            <input type="email" placeholder="ejemplo@gmail.com">
+            <input id="gmail"  type="email" placeholder="ejemplo@gmail.com">
 
             <label for="password">Contraseña</label>
-            <input type="password" placeholder="Ingresar contraseña">
+            <input id="password" type="password" placeholder="Ingresar contraseña">
 
-            <input type="submit" value="Iniciar sesión">
+            <input type="submit" value="Iniciar sesión" onclick="btnChanger()" href="admin.html">
 
             <a href="#">Olvidé mi contraseña</a><br>
             <a href="#">No tengo una cuenta</a>
 
         </form>
     </div>
+
+    <script>
+
+        function btnChanger(){
+            let gmail = document.getElementById('gmail').value;
+            let password = document.getElementById('password').value;
+            
+            if (gmail == "admin@gmail.com" && password == "123") {
+                window.open('admin.html');
+                window.location="http://www.cristalab.com";
+            }else{
+                alert("Usuario o contraseña incorrectos")
+            }
+        }
+    </script>
     
 </body>
 </html>

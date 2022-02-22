@@ -39,13 +39,9 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto" href="index.html">Inicio</a></li>
-              <li><a class="nav-link scrollto active" href="#navbar">Agendar cita</a></li>
-              <li><a class="nav-link scrollto" href="index.html">Servicios</a></li>
-              <li><a class="nav-link scrollto " href="index.html">PQRS</a></li>
+              <li><a class="nav-link scrollto active" href="schedule-appointment.html">Agendar cita</a></li>
               <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li>
               <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
-              <li><a class="nav-link scrollto" href="index.html">Contacto</a></li>
-    
               <li><a id="login" class="nav-link scrollto" href="login.html">Iniciar sesion</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -55,46 +51,83 @@
     </header>
 
     <main id="main">
-        <!-- Form -->
-        <section id="form">
-          <div class="container">
-            <div class="section-title">
-              <h2>AGENDAR CITA</h2>
-              <h3>Agenda tú<span> Cita</span></h3>
-            </div>
+        <!-- admin menu -->
+        <section id="admin-menu" >
+            <div class="container">
+                <div class="section-title">
+                    <h2>ADMINISTRADOR</h2>
+                    <h3>Panel de<span> Citas</span></h3>
+                </div>
 
-            <form action="#" class="row justify-content-center">
-              <div  class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Nombre completo:</label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Servicio médico:</label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Teléfono celular:</label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Número de indentificación:</label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Correo electrónico:</label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group my-2 col-md-5">
-                <label class="control-label my-2">Horario de preferencia:</label>
-                <input type="text" class="form-control">
-              </div>
-            </form>
+                <div class="overflow-auto" style="width: 100%; height: 300px;">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                              <th scope="col">ID</th>
+                              <th scope="col">Nombre</th>
+                              <th scope="col">Tipo de consulta</th>
+                              <th scope="col">Fecha</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <th scope="row">1007823333</th>
+                                <td>Felipe Saruma</td>
+                                <td>Odontológica</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1003567892</th>
+                                <td>Erika Thornton</td>
+                                <td>Ginecológica</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1003990667</th>
+                                <td>Coronel Meddici</td>
+                                <td>Odontológica</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1007667888</th>
+                                <td>Alberto Gonzales</td>
+                                <td>Optometria</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1007994324</th>
+                                <td>Juan Díaz</td>
+                                <td>Optometria</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1007994324</th>
+                                <td>Juan Díaz</td>
+                                <td>Optometria</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1007994324</th>
+                                <td>Juan Díaz</td>
+                                <td>Optometria</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1007223443</th>
+                                <td>Óscar Badillo</td>
+                                <td>Optometria</td>
+                                <td>20-jun-2021</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
 
-            <div class="d-flex my-4 justify-content-center">
-              <a href="#" class="btn-get-started scrollto">Agendar cita</a>
+                <div id="admin-1" class="d-flex my-4 justify-content-center">
+                    <a href="#" class="btn-admin">ACTUALIZAR</a>
+                    <a href="#" class="btn-admin">BORRAR</a>
+                </div>
+
             </div>
-            
-          </div>
         </section>
     </main>
       
@@ -167,7 +200,8 @@
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
 
   <div id="preloader"></div>
