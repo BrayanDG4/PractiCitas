@@ -1,5 +1,5 @@
 # PractiCitas
-Website template for health clinics.
+Website template for health clinics. Link: https://brayandg4.github.io/PractiCitas/
 
 ## PREVIEW
 
